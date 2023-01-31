@@ -1,0 +1,9 @@
+local playertable = {} 
+
+for i,v in pairs(game.Players:GetChildren()) do 
+table.insert(playertable, v)
+end
+
+for i,v in pairs(playertable) do 
+print(v) 
+end
